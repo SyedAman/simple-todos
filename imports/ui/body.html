@@ -5,5 +5,12 @@
         <header>
             <h1>Todo List</h1>
         </header>
+
+        <!-- Loop through each task and render object -->
+        <ul>
+            {{#each tasks}}
+                {{> task}}
+            {{/each}}
+        </ul>
     </div>
 </body>
